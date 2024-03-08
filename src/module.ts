@@ -1,7 +1,6 @@
 import { defineNuxtModule, addPlugin, createResolver } from "@nuxt/kit";
 
-// Module options TypeScript interface definition
-export interface ModuleOptions {}
+import type { ModuleOptions } from "./types";
 
 const moduleList = ["bootstrap", "@popperjs/core"];
 

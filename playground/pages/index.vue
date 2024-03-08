@@ -1,4 +1,5 @@
 <template>
+  <!-- JS Dropdown -->
   <div class="container my-5">
     <div class="dropdown mb-5">
       <button
@@ -19,6 +20,7 @@
         </li>
       </ul>
     </div>
+    <!-- JS Tabs -->
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button
