@@ -1,56 +1,185 @@
-<!--
-Get your module up and running quickly.
+<h1 align="center">
+Nuxt Bootstrap
+</h1>
 
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: Nuxt Bootstrap
-- Package name: nuxt-bootstrap
-- Description: My new Nuxt module
--->
+<p align="center">
+<a href="https://npmjs.com/package/nuxt-bootstrap"><img src="https://img.shields.io/npm/v/nuxt-bootstrap/latest.svg?style=flat&colorA=020420&colorB=00DC82" alt="Nuxt Bootstrap - NPM Package" /></a>
+<a href="https://npmjs.com/package/nuxt-bootstrap"><img src="https://img.shields.io/npm/dm/nuxt-bootstrap.svg?style=flat&colorA=020420&colorB=00DC82" alt="Nuxt Bootstrap - NPM Package Downloads" /></a>
+<a href="https://npmjs.com/package/nuxt-bootstrap"><img src="https://img.shields.io/npm/l/nuxt-bootstrap.svg?style=flat&colorA=020420&" alt="Nuxt Bootstrap License" /></a>
+<a href="https://nuxt.com"><img src="https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js" alt="Nuxt Bootstrap - Nuxt" /></a>
+</p>
 
-# Nuxt Bootstrap
+<p align="center">
+Complete Bootstrap integration
+</p>
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![License][license-src]][license-href]
-[![Nuxt][nuxt-src]][nuxt-href]
+<p align="center">
+  <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Nuxt Bootstrap Performance" />
+</p>
 
-My new Nuxt module for doing amazing things.
-
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-bootstrap?file=playground%2Fapp.vue) -->
-<!-- - [📖 &nbsp;Documentation](https://example.com) -->
+-----
+- [📖 Official Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [🏀 Online playground](https://stackblitz.com/github/modbender/nuxt-bootstrap?file=playground%2Fapp.vue)
+- [✨ Release Notes](/CHANGELOG.md)
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- 🍰 &nbsp;Bootstrap Integration Shortcut
+- 🪶 &nbsp;No Decrease in Performance, Javascript injected to client side
+- 🎉 &nbsp;All components classes from Bootstrap available
+- 🕶️ &nbsp;Dark Mode supported
 
 ## Quick Setup
 
 1. Add `nuxt-bootstrap` dependency to your project
 
-```bash
-# Using pnpm
-pnpm add -D nuxt-bootstrap
+    ```bash
+    # Using pnpm
+    pnpm add -D nuxt-bootstrap
 
-# Using yarn
-yarn add --dev nuxt-bootstrap
+    # Using yarn
+    yarn add --dev nuxt-bootstrap
 
-# Using npm
-npm install --save-dev nuxt-bootstrap
-```
+    # Using npm
+    npm install --save-dev nuxt-bootstrap
+    ```
 
 2. Add `nuxt-bootstrap` to the `modules` section of `nuxt.config.ts`
 
-```js
-export default defineNuxtConfig({
-  modules: [
-    'nuxt-bootstrap'
-  ]
-})
-```
+    ```js
+    export default defineNuxtConfig({
+      modules: [
+        'nuxt-bootstrap'
+      ]
+    })
+    ```
+
+3. Start designing your webpage using Bootstrap classes. Full `bootstrap` javascript and `@popper/core` is already imported.
+
+    ```xml
+    <template>
+      <!-- JS Dropdown -->
+      <div class="container my-5">
+        <div class="dropdown mb-5">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Another action</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"> Something else here </a>
+            </li>
+          </ul>
+        </div>
+        <!-- JS Tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="home-tab-pane"
+              aria-selected="true"
+            >
+              Home
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="profile-tab-pane"
+              aria-selected="false"
+            >
+              Profile
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="contact-tab-pane"
+              aria-selected="false"
+            >
+              Contact
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="disabled-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#disabled-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="disabled-tab-pane"
+              aria-selected="false"
+              disabled
+            >
+              Disabled
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home-tab-pane"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile-tab-pane"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact-tab-pane"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="disabled-tab-pane"
+            role="tabpanel"
+            aria-labelledby="disabled-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+        </div>
+      </div>
+    </template>
+    ```
 
 That's it! You can now use Nuxt Bootstrap in your Nuxt app ✨
 
@@ -58,37 +187,24 @@ That's it! You can now use Nuxt Bootstrap in your Nuxt app ✨
 
 ```bash
 # Install dependencies
-npm install
+pnpm install
 
 # Generate type stubs
-npm run dev:prepare
+pnpm run dev:prepare
 
 # Develop with the playground
-npm run dev
+pnpm run dev
 
 # Build the playground
-npm run dev:build
+pnpm run dev:build
 
 # Run ESLint
-npm run lint
+pnpm run lint
 
 # Run Vitest
-npm run test
-npm run test:watch
+pnpm run test
+pnpm run test:watch
 
 # Release new version
 npm run release
 ```
-
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-bootstrap/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/nuxt-bootstrap
-
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-bootstrap.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npmjs.com/package/nuxt-bootstrap
-
-[license-src]: https://img.shields.io/npm/l/nuxt-bootstrap.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/nuxt-bootstrap
-
-[nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
-[nuxt-href]: https://nuxt.com
