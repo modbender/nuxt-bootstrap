@@ -10,7 +10,7 @@ Nuxt Bootstrap CSS
 </p>
 
 <p align="center">
-Complete Bootstrap integration
+Complete Bootstrap integration, instant, no config, full CSS server side, full javascript client side.
 </p>
 
 <p align="center">
