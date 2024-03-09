@@ -195,7 +195,7 @@ With `color-mode` it's easy to configure Dark Mode for bootstrap.
 
 ```js
 colorMode: {
-  dataValue: 'data-bs-theme',
+  dataValue: 'bs-theme',
   classSuffix: ''
 }
 ```
