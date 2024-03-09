@@ -183,6 +183,23 @@ Complete Bootstrap integration, instant, no config, full CSS server side, full j
 
 That's it! You can now use Nuxt Bootstrap CSS in your Nuxt app ✨
 
+## Dark Mode
+
+Bootstrap 5.3 introduced [Dark Mode](https://getbootstrap.com/docs/5.3/customize/color-modes/#dark-mode).  
+
+Simply by adding attribute `data-bs-theme` to any element with value `light` or `dark` you can manipulate it's theme.
+
+Bootstrap 5.3 is already pre-configured with `light` and `dark` theme variables. But you can always create custom themes with custom variables to switch colors.
+
+With `color-mode` it's easy to configure Dark Mode for bootstrap.
+
+```js
+colorMode: {
+  dataValue: 'data-bs-theme',
+  classSuffix: ''
+}
+```
+
 ## Development
 
 ```bash
