@@ -24,7 +24,7 @@ Complete Bootstrap integration
 
 ## Features
 
-- 🍰 &nbsp;Instant Bootstrap Integration, No Config
+- 📦 &nbsp;Instant Bootstrap Integration, No Config Required
 - 🪶 &nbsp;No Decrease in Performance, Javascript injected to client side
 - 🎉 &nbsp;All components classes from Bootstrap available
 - 🕶️ &nbsp;Dark Mode supported
