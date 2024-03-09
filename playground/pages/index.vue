@@ -1,6 +1,6 @@
 <template>
-  <!-- JS Dropdown -->
   <div class="container my-5">
+    <!-- JS Dropdown -->
     <div class="dropdown mb-5">
       <button
         class="btn btn-secondary dropdown-toggle"
