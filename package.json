@@ -1,6 +1,6 @@
 {
   "name": "nuxt-bootstrap-css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Quite the hassle to setup bootstrap, so here is the shortcut",
   "repository": "modbender/nuxt-bootstrap-css",
   "license": "MIT",
