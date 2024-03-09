@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "nuxt-bootstrap-playground",
+  "name": "nuxt-bootstrap-css-playground",
   "type": "module",
   "scripts": {
     "dev": "nuxi dev",

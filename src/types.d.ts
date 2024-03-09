@@ -1,6 +1,6 @@
 export interface ModuleOptions {}
 
-declare module "nuxt-bootstrap" {
+declare module "nuxt-bootstrap-css" {
   interface NuxtConfig {
     bootstrap?: ModuleOptions;
   }

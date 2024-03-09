@@ -1,12 +1,12 @@
 <h1 align="center">
-Nuxt Bootstrap
+Nuxt Bootstrap CSS
 </h1>
 
 <p align="center">
-<a href="https://npmjs.com/package/nuxt-bootstrap"><img src="https://img.shields.io/npm/v/nuxt-bootstrap/latest.svg?style=flat&colorA=020420&colorB=00DC82" alt="Nuxt Bootstrap - NPM Package" /></a>
-<a href="https://npmjs.com/package/nuxt-bootstrap"><img src="https://img.shields.io/npm/dm/nuxt-bootstrap.svg?style=flat&colorA=020420&colorB=00DC82" alt="Nuxt Bootstrap - NPM Package Downloads" /></a>
-<a href="https://npmjs.com/package/nuxt-bootstrap"><img src="https://img.shields.io/npm/l/nuxt-bootstrap.svg?style=flat&colorA=020420&" alt="Nuxt Bootstrap License" /></a>
-<a href="https://nuxt.com"><img src="https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js" alt="Nuxt Bootstrap - Nuxt" /></a>
+<a href="https://npmjs.com/package/nuxt-bootstrap-css"><img src="https://img.shields.io/npm/v/nuxt-bootstrap-css/latest.svg?style=flat&colorA=020420&colorB=00DC82" alt="Nuxt Bootstrap CSS - NPM Package" /></a>
+<a href="https://npmjs.com/package/nuxt-bootstrap-css"><img src="https://img.shields.io/npm/dm/nuxt-bootstrap-css.svg?style=flat&colorA=020420&colorB=00DC82" alt="Nuxt Bootstrap CSS - NPM Package Downloads" /></a>
+<a href="https://npmjs.com/package/nuxt-bootstrap-css"><img src="https://img.shields.io/npm/l/nuxt-bootstrap-css.svg?style=flat&colorA=020420&" alt="Nuxt Bootstrap CSS License" /></a>
+<a href="https://nuxt.com"><img src="https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js" alt="Nuxt Bootstrap CSS - Nuxt" /></a>
 </p>
 
 <p align="center">
@@ -14,12 +14,12 @@ Complete Bootstrap integration
 </p>
 
 <p align="center">
-  <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Nuxt Bootstrap Performance" />
+  <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Nuxt Bootstrap CSS Performance" />
 </p>
 
 -----
 - [📖 Official Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- [🏀 Online playground](https://stackblitz.com/github/modbender/nuxt-bootstrap?file=playground%2Fapp.vue)
+- [🏀 Online playground](https://stackblitz.com/github/modbender/nuxt-bootstrap-css?file=playground%2Fapp.vue)
 - [✨ Release Notes](/CHANGELOG.md)
 
 ## Features
@@ -31,25 +31,25 @@ Complete Bootstrap integration
 
 ## Quick Setup
 
-1. Add `nuxt-bootstrap` dependency to your project
+1. Add `nuxt-bootstrap-css` dependency to your project
 
     ```bash
     # Using pnpm
-    pnpm add -D nuxt-bootstrap
+    pnpm add -D nuxt-bootstrap-css
 
     # Using yarn
-    yarn add --dev nuxt-bootstrap
+    yarn add --dev nuxt-bootstrap-css
 
     # Using npm
-    npm install --save-dev nuxt-bootstrap
+    npm install --save-dev nuxt-bootstrap-css
     ```
 
-2. Add `nuxt-bootstrap` to the `modules` section of `nuxt.config.ts`
+2. Add `nuxt-bootstrap-css` to the `modules` section of `nuxt.config.ts`
 
     ```js
     export default defineNuxtConfig({
       modules: [
-        'nuxt-bootstrap'
+        'nuxt-bootstrap-css'
       ]
     })
     ```
@@ -181,7 +181,7 @@ Complete Bootstrap integration
     </template>
     ```
 
-That's it! You can now use Nuxt Bootstrap in your Nuxt app ✨
+That's it! You can now use Nuxt Bootstrap CSS in your Nuxt app ✨
 
 ## Development
 
