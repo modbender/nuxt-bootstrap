@@ -7,7 +7,7 @@ const moduleList = ["bootstrap", "@popperjs/core"];
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: "nuxt-bootstrap-css",
-    configKey: "bootstrap",
+    configKey: "bootstrapCSS",
   },
   // Default configuration options of the Nuxt module
   defaults: {},
