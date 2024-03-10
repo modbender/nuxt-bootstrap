@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/modbender/nuxt-bootstrap-css/compare/v1.1.0...v1.1.1)
+
+### 🏡 Chore
+
+- **release:** V1.1.0 ([91aa927](https://github.com/modbender/nuxt-bootstrap-css/commit/91aa927))
+- Update README about Dark Mode ([947b7b1](https://github.com/modbender/nuxt-bootstrap-css/commit/947b7b1))
+- Package keywords ([8849b84](https://github.com/modbender/nuxt-bootstrap-css/commit/8849b84))
+
+### ❤️ Contributors
+
+- Modbender
+
 ## v1.1.0
 
 
