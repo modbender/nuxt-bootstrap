@@ -26,8 +26,8 @@ Complete Bootstrap integration, instant, no config, full CSS server side, full j
 
 - 📦 &nbsp;Instant Bootstrap Integration, No Config Required
 - 🪶 &nbsp;No Decrease in Performance, Javascript injected to client side
-- 🎉 &nbsp;All components classes from Bootstrap available
-- 🕶️ &nbsp;Dark Mode supported
+- 🎉 &nbsp;Everything from Bootstrap available
+- 🕶️ &nbsp;Dark Mode support
 
 ## Quick Setup
 
