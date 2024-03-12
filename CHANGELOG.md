@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.1.2
+
+[compare changes](https://github.com/modbender/nuxt-bootstrap-css/compare/v1.1.1...v1.1.2)
+
+### 🩹 Fixes
+
+- Module compatibility ([0dd2300](https://github.com/modbender/nuxt-bootstrap-css/commit/0dd2300))
+
+### 🏡 Chore
+
+- **release:** V1.1.1 ([ab4eb03](https://github.com/modbender/nuxt-bootstrap-css/commit/ab4eb03))
+
+### ❤️ Contributors
+
+- Modbender
+
 ## v1.1.1
 
 [compare changes](https://github.com/modbender/nuxt-bootstrap-css/compare/v1.1.0...v1.1.1)
