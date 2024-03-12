@@ -2,12 +2,18 @@ import { defineNuxtModule, addPlugin, createResolver } from "@nuxt/kit";
 
 import type { ModuleOptions } from "./types";
 
+import { name, version } from "../package.json";
+
 const moduleList = ["bootstrap", "@popperjs/core"];
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "nuxt-bootstrap-css",
+    name,
+    version,
     configKey: "bootstrapCSS",
+    compatibility: {
+      nuxt: "^3.0.0",
+    },
   },
   // Default configuration options of the Nuxt module
   defaults: {},
